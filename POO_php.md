@@ -118,4 +118,66 @@ App::start(); // chamamos o método estático start da classe App.php
 Atá agora fizemos apenas a configuração da estrutura do projeto, definimos a organização de algumas pastas e configuramos nosso arquivo `index.php` para 
 chamar o método `start` da classe App.
 
-A aplicação vai rodar no terminal, vai apresentar um menu de opções ao usuário
+A aplicação vai rodar no terminal, vai apresentar um menu de opções ao usuário para selecionar as seguintes opções:
+
+- CLIENTES
+- PRODUTOS
+- VENDAS
+- SAIR DO SISTEMA
+
+A forma de seleção de opção se dá com o usuário digitando a opção que deseja. EX: `1 - CLIENTES`
+
+Deve-se tambem ter uma opção para que o usuário saia da aplicação.
+
+### D-1. Estrutura de menus
+
+Menu inicial:
+
+```
+--------------------------------
+ <MENSAGEM DE BOAS VINDAS>
+ <TITULO DA APLICAÇÃO>
+--------------------------------
+1 - CLIENTES
+2 - PRODUTOS
+3 - VENDAS
+Q - SAIR DO SISTEMA
+
+Selecione a opção desejada: 
+```
+
+Menu clientes:
+
+```
+--------------------------------
+ <TITULO DA APLICAÇÃO>
+ CADASTRO DE CLIENTES
+--------------------------------
+1 - Listar clientes
+2 - Adicionar um cliente
+3 - Editar um cliente
+4 - Excluir um cliente
+S - Voltar ao menu inicial
+
+Selecione a opção desejada: 
+```
+
+Menu Produtos:
+
+```
+--------------------------------
+ <TITULO DA APLICAÇÃO>
+ CADASTRO DE PRODUTOS
+--------------------------------
+1 - Listar produtos
+2 - Adicionar um produto
+3 - Editar um produto
+4 - Excluir um produto
+S - Voltar ao menu inicial
+
+Selecione a opção desejada: 
+```
+
+... mais
+
+Documento incompleto... 
