@@ -178,6 +178,32 @@ S - Voltar ao menu inicial
 Selecione a opção desejada: 
 ```
 
-... mais
+Menu vendas:
 
-Documento incompleto... 
+```
+--------------------------------
+ <TITULO DA APLICAÇÃO>
+ CADASTRO DE VENDAS
+--------------------------------
+1 - Listar vendas
+2 - Adicionar uma venda
+S - Voltar ao menu inicial
+
+Selecione a opção desejada: 
+```
+
+### D-2. As classes da aplicação
+
+`App.php` - classe principal responsável por exibir os menus e controlar o fluxo da aplicação
+
+`Model.php` - classe abstrata que será a base para as classes de entidade `Cliente`, `Produto` e `Venda`. Cada classe de entidade deve extender a classe `Model`
+e implementar os métodos para manipular seu arquivo de dados.
+
+`Controller.php` - classe abstrata que será a base para as classes de controladores `ClienteController`, `ProdutoController` e `VendaController`. Cada controlador
+deve extender a classe `Controller` e implementar métodos para exibir os menus e em conjunto com as entidades manipular/exibir os dados.
+
+### E. 
+
+W.I.P (work in progress)
+
+
